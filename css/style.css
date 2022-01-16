@@ -1,0 +1,32 @@
+.data{
+    top: 50%;
+}
+.item img:hover{
+    cursor: pointer;
+    box-shadow: none;
+}
+.w-60{
+    width: 60%;
+}
+.cover{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.selected{
+    background-image: url("../images/profile/6.jpg");
+    background-size: 100% 100%;
+}
+.selected i{
+    font-size: 35px;
+    color:teal
+}
+.selected i:hover{
+    cursor: pointer;
+}
+.close{
+    top: 0;
+    right: 0;
+}
